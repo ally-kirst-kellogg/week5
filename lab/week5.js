@@ -28,7 +28,7 @@ let location = locationElement.value
 // - Check to see if the user entered anything; if so:
 if (location.length >0) {
   // - Construct a URL to call the WeatherAPI.com API
-  let url = `https://api.weatherapi.com/v1/forecast.json?key=e8be196480e347b3b62160258212704&q=${location}`
+  let url = `https://api.weatherapi.com/v1/forecast.json?key=7ff49466ce8a49d7911193014210305&q=${location}`
 
  // - Fetch the url, wait for a response, store the response in memory
  let response = await fetch(url)
